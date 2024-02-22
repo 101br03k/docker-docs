@@ -1,0 +1,73 @@
+site_name: Adrie.it
+site_url: https://docs.adrie.it
+site_author: 101br03k
+site_description: Welcome to the home of my Docker Documentation!
+repo_name: 101br03k/docker-docs
+repo_url: https://github.com/101br03k/docker-docs
+copyright: Copyright &copy; 2024 101br03k
+theme:
+  name: material
+  features:
+    # - content.action.edit
+    - content.code.copy
+    - navigation.footer
+    - navigation.instant
+    # - navigation.prune
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  favicon: assets/bg.jpg
+  logo: assets/logo.png
+extra:
+  social:
+    - icon: fontawesome/solid/otter
+      link: https://adrie.it
+    - icon: fontawesome/brands/github
+      link: https://github.com/101br03k
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.escapeall
+  - pymdownx.extra
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+plugins:
+  - awesome-pages
+  - minify:
+      minify_html: true
+  - search
+  - redirects:
+      redirect_maps:
+        'faq.md': 'FAQ.md'
+        general/awesome-lsio.md: misc/awesome-lsio.md
+        readme-sync.md: deprecated/readme-sync.md
