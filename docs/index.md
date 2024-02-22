@@ -1,13 +1,13 @@
-# Welcome to Adrie.IT Docker Docs
+# Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Welcome to the home of my Docker documentation! Or in short Docker Docs.
+
+
+Hello & Welcome To My Docker Docs.
+
+This is the documantation site of my Linux / docker (compose) setup
 
 ## Project layout
 
