@@ -39,7 +39,7 @@ theme:
   logo: assets/logo.png
 extra:
   social:
-    - icon: fontawesome/solid/otter
+    - icon: fontawesome/brands/internet-explorer
       link: https://adrie.it
     - icon: fontawesome/brands/github
       link: https://github.com/101br03k
