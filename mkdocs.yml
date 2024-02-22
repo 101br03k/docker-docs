@@ -35,8 +35,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  favicon: assets/bg.jpg
-  logo: assets/logo.png
+  favicon: assets/bg.ico
+  logo: assets/logo.svg
 extra:
   social:
     - icon: fontawesome/brands/internet-explorer
