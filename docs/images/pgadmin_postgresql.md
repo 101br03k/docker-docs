@@ -2,8 +2,8 @@
 
 #### Documentation / Source:
 
-pgAdmin:[ pgAdmin.org
-](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)PostgreSQL: [hub.docker.com/_/postgres](https://github.com/docker-library/docs/tree/master/postgres)
+* pgAdmin:[ pgAdmin.org](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)
+* PostgreSQL: [hub.docker.com/_/postgres](https://github.com/docker-library/docs/tree/master/postgres)
 
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose")):
 
