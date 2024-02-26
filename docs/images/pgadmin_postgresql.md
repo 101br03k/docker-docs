@@ -19,7 +19,7 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_USER: user-name 				#CHANGE PLZ
-      POSTGRES_PASSWORD: strong-password 		#CHANGE PLZ
+      POSTGRES_PASSWORD: strong-password 	#CHANGE PLZ
     volumes:
       - local_pgdata:/var/lib/postgresql/data
   pgadmin:
@@ -30,7 +30,7 @@ services:
       - "8888:80"
     environment:
       PGADMIN_DEFAULT_EMAIL: user-name@domain-name.com 	#CHANGE PLZ
-      PGADMIN_DEFAULT_PASSWORD: strong-password 	#CHANGE PLZ
+      PGADMIN_DEFAULT_PASSWORD: strong-password 		#CHANGE PLZ
     volumes:
       - pgadmin-data:/var/lib/pgadmin
 
