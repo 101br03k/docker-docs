@@ -10,6 +10,6 @@ This is the documantation site of my Linux / docker (compose) setup
 
     mkdocs.yml    	# The configuration file.
     docs/
-        index.md    	#The documentation homepage. 
-	images dir	#Contains my templates / boilerplates.
-        ...       # Other markdown pages, images and other files.
+        index.md    	#The documentation homepage.
+        images dir       #Contains my templates / boilerplates.
+        ...       		# Other markdown pages, images and other files.
