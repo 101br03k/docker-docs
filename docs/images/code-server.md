@@ -1,4 +1,4 @@
-# Dockge
+# Code-Server
 
 #### [Documentation / Source](https://docs.linuxserver.io/images/docker-code-server/ "Documentation / Source")
 
