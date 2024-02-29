@@ -1,0 +1,25 @@
+# Dashdot
+
+#### [Documentation / Source](https://github.com/MauriceNino/dashdot "Documentation / Source")
+
+Heimdall, there where dashboards for me started.
+
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose")):
+
+```yaml
+version: "3.2"
+services:
+  changedetection:
+    image: ghcr.io/dgtlmoon/changedetection.io
+    container_name: changedetection
+    hostname: changedetection
+    volumes:
+      - changedetection-data:/datastore
+
+    ports:
+      - 5000:5000
+    restart: unless-stopped
+volumes:
+  changedetection-data: null
+
+```
