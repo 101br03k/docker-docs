@@ -2,7 +2,7 @@
 
 #### [Documentation / Source](https://docs.linuxserver.io/images/docker-heimdall/ "Documentation / Source")
 
-Heimdall, there where dashboards for me started. 
+Heimdall, there where dashboards for me started.
 
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose")):
 
@@ -24,3 +24,5 @@ services:
     restart: unless-stopped
     network_mode: bridge
 ```
+
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")

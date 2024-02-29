@@ -23,3 +23,5 @@ volumes:
   changedetection-data: null
 
 ```
+
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
