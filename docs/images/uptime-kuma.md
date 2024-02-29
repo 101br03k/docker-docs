@@ -18,3 +18,5 @@ services:
     restart: always
     network_mode: bridge
 ```
+
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
