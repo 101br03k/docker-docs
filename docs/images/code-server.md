@@ -1,10 +1,10 @@
 # Code-Server
 
-#### [Documentation / Source](https://docs.linuxserver.io/images/docker-code-server/ "Documentation / Source")
+#### [Documentation / Source](https://docs.linuxserver.io/images/docker-code-server/)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
+```
 version: "3.3"
 services:
   code-server:
@@ -30,7 +30,6 @@ services:
       - 5443:8443
     restart: unless-stopped
     network_mode: bridge
-
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)
