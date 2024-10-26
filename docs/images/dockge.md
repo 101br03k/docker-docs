@@ -1,4 +1,4 @@
-# Dockge
+# **Dockge**
 
 #### [Documentation / Source](https://github.com/louislam/dockge)
 

@@ -1,4 +1,4 @@
-# Glances
+# **Glances**
 
 #### [Documentation / Source](https://glances.readthedocs.io/en/latest/)
 

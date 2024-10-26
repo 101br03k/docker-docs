@@ -1,4 +1,4 @@
-# GHstats
+# **GHstats**
 
 #### [Documentation / Source](https://github.com/vladkens/ghstats)
 

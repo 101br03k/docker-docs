@@ -1,4 +1,4 @@
-# Duckdns
+# **Duckdns**
 
 #### [Documentation / Source](https://docs.linuxserver.io/images/docker-duckdns/)
 

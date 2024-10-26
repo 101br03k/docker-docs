@@ -1,4 +1,4 @@
-# Nginx-up-page
+# **Nginx-up-page**
 
 #### [Documentation / Source](https://docs.linuxserver.io/images/docker-nginx/)
 

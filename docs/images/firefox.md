@@ -1,10 +1,10 @@
-# FireFox
+# **FireFox**
 
-#### [Documentation / Source](https://docs.linuxserver.io/images/docker-firefox/ "Documentation / Source")
+#### [Documentation / Source](https://docs.linuxserver.io/images/docker-firefox/)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
+```
 services:
   firefox:
     image: lscr.io/linuxserver/firefox:latest
@@ -22,7 +22,6 @@ services:
       - 6902:3001
     shm_size: "1gb"
     restart: unless-stopped
-
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

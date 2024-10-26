@@ -1,4 +1,4 @@
-# Homepage
+# **Homepage**
 
 #### [Documentation / Source](https://gethomepage.dev/latest/)
 

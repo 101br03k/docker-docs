@@ -1,4 +1,4 @@
-# Spotify-Buddylist
+# **Spotify-Buddylist**
 
 #### [Documentation / Source](https://github.com/benonymity/spotify-buddylist)
 

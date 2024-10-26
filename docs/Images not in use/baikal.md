@@ -1,4 +1,4 @@
-# Baikal
+# **Baikal**
 
 #### [Documentation / Source](https://hub.docker.com/r/ckulka/baikal)
 

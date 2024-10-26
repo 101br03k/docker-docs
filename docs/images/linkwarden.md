@@ -1,4 +1,4 @@
-# Linkwarden
+# **Linkwarden**
 
 #### [Documentation / Source](https://github.com/linkwarden/linkwarden)
 

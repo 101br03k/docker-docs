@@ -1,4 +1,4 @@
-# Dupicati
+# **Dupicati**
 
 #### [Documentation / Source](https://docs.linuxserver.io/images/docker-duplicati)
 

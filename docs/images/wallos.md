@@ -1,4 +1,4 @@
-# Wallos
+# **Wallos**
 
 #### [Documentation / Source](https://github.com/ellite/Wallos)
 

@@ -1,4 +1,4 @@
-# Tubetube
+# **TubeTube**
 
 #### [Documentation / Source](https://github.com/mattblackonly/tubetube)
 

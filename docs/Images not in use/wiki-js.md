@@ -1,4 +1,4 @@
-# Wiki.js
+# **Wiki.js**
 
 #### [Documentation / Source](https://docs.requarks.io/)
 

@@ -1,4 +1,4 @@
-# PiHole
+# **PiHole**
 
 #### [Documentation / Source](https://github.com/pi-hole/docker-pi-hole/)
 

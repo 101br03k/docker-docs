@@ -1,4 +1,4 @@
-# Dawarich
+# **Dawarich**
 
 #### [Documentation / Source](https://github.com/Freika/dawarich)
 

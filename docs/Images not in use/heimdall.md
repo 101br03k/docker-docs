@@ -1,4 +1,4 @@
-# Heimdall
+# **Heimdall**
 
 #### [Documentation / Source](https://docs.linuxserver.io/images/docker-heimdall/)
 

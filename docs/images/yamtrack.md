@@ -1,4 +1,4 @@
-# Yamtrack
+# **Yamtrack**
 
 #### [Documentation / Source](https://github.com/FuzzyGrim/Yamtrack)
 

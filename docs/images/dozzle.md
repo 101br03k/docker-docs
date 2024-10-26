@@ -1,4 +1,4 @@
-# Dozzle
+# **Dozzle**
 
 #### [Documentation / Source](https://docs.linuxserver.io/images/docker-duckdns/)
 

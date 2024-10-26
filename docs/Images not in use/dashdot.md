@@ -1,4 +1,4 @@
-# Dashdot
+# **Dashdot**
 
 #### [Documentation / Source](https://github.com/MauriceNino/dashdot)
 

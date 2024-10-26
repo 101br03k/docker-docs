@@ -1,4 +1,4 @@
-# WatchYourLan
+# **WatchYourLan**
 
 #### [Documentation / Source](https://github.com/aceberg/WatchYourLAN)
 
