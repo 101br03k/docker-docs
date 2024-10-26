@@ -1,11 +1,10 @@
-# Nginx
+# Nginx-up-page
 
-#### [Documentation / Source](https://docs.linuxserver.io/images/docker-nginx/ "Documentation / Source")
+#### [Documentation / Source](https://docs.linuxserver.io/images/docker-nginx/)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
----
+```
 services:
   nginx:
     image: lscr.io/linuxserver/nginx:latest
@@ -16,14 +15,14 @@ services:
       - TZ=Etc/UTC
     volumes:
       - ./config:/config
+      - ./html:/config/www
     ports:
-      - 14486:80
-      - 14487:443
+      - 5200:80
     restart: unless-stopped
     network_mode: bridge
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)
 
 ### HTML (with internal styling ):
 
@@ -47,7 +46,7 @@ If posible please use [environment variables](https://docs.docker.com/compose/en
         p {
             color: #666;
         }
-        .container {
+	    .container {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
@@ -70,10 +69,10 @@ If posible please use [environment variables](https://docs.docker.com/compose/en
     <div class="container">
         <div class="vertical-center">
             <h1>Server Monitoring</h1>
-            <p>This site is only to from [external] to an nginx page to ensure everything is up as I do not have any other published ports.</p>
+            <p>This site is only to from [external] to an web page to ensure everything is up as I do not have any other published ports.</p>
+            <p>(That I know of and hope of)</p>
         </div>
     </div>
 </body>
 </html>
-
 ```

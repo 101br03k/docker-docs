@@ -1,6 +1,8 @@
-# Changedetection.io
+# Dashdot
 
-#### [Documentation / Source](changedetection.io)
+#### [Documentation / Source](https://github.com/MauriceNino/dashdot)
+
+Heimdall, there where dashboards for me started.
 
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 

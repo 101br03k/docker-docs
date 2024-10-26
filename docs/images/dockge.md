@@ -1,11 +1,10 @@
 # Dockge
 
-#### [Documentation / Source](https://github.com/louislam/dockge "Documentation / Source")
+#### [Documentation / Source](https://github.com/louislam/dockge)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
-version: "3.8"
+```
 services:
   dockge:
     image: louislam/dockge:latest
@@ -33,7 +32,6 @@ services:
       # Tell Dockge where is your stacks directory
       - DOCKGE_STACKS_DIR=/opt/stacks
     network_mode: bridge
-
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

@@ -1,11 +1,10 @@
 # PiHole
 
-#### [Documentation / Source](https://github.com/pi-hole/docker-pi-hole/ "Documentation / Source")
+#### [Documentation / Source](https://github.com/pi-hole/docker-pi-hole/)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
-version: "3"
+```
 services:
   pihole:
     container_name: pihole
@@ -27,6 +26,7 @@ services:
     cap_add:
       - NET_ADMIN
     restart: unless-stopped
+    network_mode: bridge
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

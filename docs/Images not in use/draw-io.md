@@ -1,11 +1,10 @@
 # Draw-io
 
-#### [Documentation / Source](https://github.com/jgraph/docker-drawio "Documentation / Source")
+#### [Documentation / Source](https://github.com/jgraph/docker-drawio)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
-version: "3.5"
+```
 services:
   drawio:
     image: jgraph/drawio
@@ -31,7 +30,6 @@ services:
       start_period: 10s
     network_mode: bridge
 networks: {}
-
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

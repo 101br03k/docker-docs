@@ -1,1 +1,1 @@
-nohup mkdocs serve -a 192.168.0.179:8000 &
+nohup mkdocs serve -a 192.168.0.41:8000 &

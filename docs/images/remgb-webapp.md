@@ -1,23 +1,17 @@
-# Tasks.md
+# Remgb-webapp
 
-#### [Documentation / Source](https://github.com/BaldissaraMatheus/Tasks.md)
+#### Documentation / Source
 
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
 ```
 services:
-  tasks.md:
-    image: baldissaramatheus/tasks.md
-    container_name: tasks.md
-    environment:
-      - PUID=1000
-      - PGID=1000
-    volumes:
-      - ./tasks:/tasks
-      - ./config:/config
+  rembg:
+    image: ghcr.io/101br03k/remgb-webapp:v1.0.1
     restart: unless-stopped
     ports:
-      - 46882:8080
+      - 5100:5100
+    container_name: rembg-webapp
     network_mode: bridge
 ```
 

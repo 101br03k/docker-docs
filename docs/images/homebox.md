@@ -5,11 +5,9 @@
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
 ```
-version: "3.4"
-
 services:
   homebox:
-    image: ghcr.io/hay-kot/homebox:latest
+    image: ghcr.io/sysadminsmedia/homebox:latest
     container_name: homebox
     restart: unless-stopped
     environment:

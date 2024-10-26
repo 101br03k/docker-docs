@@ -1,11 +1,10 @@
 # Homepage
 
-#### [Documentation / Source](https://gethomepage.dev/latest/ "Documentation / Source")
+#### [Documentation / Source](https://gethomepage.dev/latest/)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
-version: "3.3"
+```
 services:
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
@@ -20,4 +19,4 @@ services:
     network_mode: bridge
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

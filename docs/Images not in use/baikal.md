@@ -5,7 +5,6 @@
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
 ```
-version: "2"
 services:
   baikal:
     image: ckulka/baikal:nginx

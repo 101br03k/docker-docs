@@ -1,11 +1,10 @@
 # Dupicati
 
-#### [Documentation / Source](https://docs.linuxserver.io/images/docker-duplicati "Documentation / Source")
+#### [Documentation / Source](https://docs.linuxserver.io/images/docker-duplicati)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
-version: "2.1"
+```
 services:
   duplicati:
     image: lscr.io/linuxserver/duplicati:latest
@@ -24,7 +23,6 @@ services:
     restart: unless-stopped
     #if using nginxproxymanager exclude: /docker-setup/nginxproxymanager/letsencrypt
     network_mode: bridge
-
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

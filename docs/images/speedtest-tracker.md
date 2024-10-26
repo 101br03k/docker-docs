@@ -1,10 +1,10 @@
 # Speedtest-tracker
 
-#### [Documentation / Source](https://docs.linuxserver.io/images/docker-speedtest-tracker "Documentation / Source")
+#### [Documentation / Source](https://docs.linuxserver.io/images/docker-speedtest-tracker)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
+```
 services:
   speedtest-tracker:
     image: lscr.io/linuxserver/speedtest-tracker:latest
@@ -14,12 +14,16 @@ services:
       - PGID=1000
       - TZ=europe/amsterdam
       - DB_CONNECTION=sqlite
+      - SPEEDTEST_SCHEDULE=5 * * * *
+      - SPEEDTEST_SERVERS=
+      - APP_KEY=$APP_KEY
     volumes:
       - ./data:/config
     ports:
-      - 8080:80
+      - 26144:80
+      - 26145:443
     restart: unless-stopped
-
+    network_mode: bridge
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

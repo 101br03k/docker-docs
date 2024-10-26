@@ -1,23 +1,26 @@
-# Tasks.md
+# Heimdall
 
-#### [Documentation / Source](https://github.com/BaldissaraMatheus/Tasks.md)
+#### [Documentation / Source](https://docs.linuxserver.io/images/docker-heimdall/)
+
+Heimdall, there where dashboards for me started.
 
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
 ```
 services:
-  tasks.md:
-    image: baldissaramatheus/tasks.md
-    container_name: tasks.md
+  heimdall:
+    image: lscr.io/linuxserver/heimdall:latest
+    container_name: heimdall
     environment:
       - PUID=1000
       - PGID=1000
+      - TZ=Europe/Amsterdam
     volumes:
-      - ./tasks:/tasks
-      - ./config:/config
-    restart: unless-stopped
+      - ./heimdall:/config
     ports:
-      - 46882:8080
+      - 8096:80
+      - 443:443
+    restart: unless-stopped
     network_mode: bridge
 ```
 

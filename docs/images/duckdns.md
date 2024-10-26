@@ -1,11 +1,10 @@
 # Duckdns
 
-#### [Documentation / Source](https://docs.linuxserver.io/images/docker-duckdns/ "Documentation / Source")
+#### [Documentation / Source](https://docs.linuxserver.io/images/docker-duckdns/)
 
-### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/ "docs.docker.com Why use Compose?")):
+### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
-```yaml
-version: "2.1"
+```
 services:
   duckdns:
     image: lscr.io/linuxserver/duckdns:latest
@@ -14,15 +13,13 @@ services:
       - PUID=1000 #optional
       - PGID=1000 #optional
       - TZ=Europa/Amsterdam
-      - SUBDOMAINS={CHANGE!!}
-      - TOKEN={CHANGE!!}
+      - SUBDOMAINS=$SUBDOMAINS
+      - TOKEN=$TOKEN
       - LOG_FILE=true #optional
-    #  - UPDATE_IP=ipv4 #optional
     volumes:
       - ./config:/config #optional
     restart: unless-stopped
     network_mode: bridge
-
 ```
 
-If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/ "docs.docker.com/envoirment variables")
+If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)

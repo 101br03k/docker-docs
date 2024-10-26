@@ -5,7 +5,6 @@
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
 ```
-version: "3.3"
 services:
   code-server:
     image: lscr.io/linuxserver/code-server:latest
