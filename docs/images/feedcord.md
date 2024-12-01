@@ -40,7 +40,7 @@ config.json
         "https://defence-blog.com/feed/"
             ],
             "YoutubeUrls": [ "" ],
-            "DiscordWebhookUrl": "https://discord.com/api/webhooks/1175139505263616040/lJh6Ss8rqc6nFidsxFv8FjPIgRqIuOnzEcW-61o-pIjyIWgVMcAUU9sID51JLgijF5jw",
+            "DiscordWebhookUrl": "",
             "RssCheckIntervalMinutes": 3,
             "EnableAutoRemove": true,
             "Color": 8411391,
@@ -62,7 +62,7 @@ config.json
         "https://www.edpb.europa.eu/feed/news_en"
             ],
             "YoutubeUrls": [ "" ],
-            "DiscordWebhookUrl": "https://discord.com/api/webhooks/1273519105055522816/4kRekLbrskJneQ8JrGcSHItYylNBaOPABDJxlfzozrqLqVi-PtQ6pUd_BMVZvBhSHqiC",
+            "DiscordWebhookUrl": "",
             "RssCheckIntervalMinutes": 3,
             "EnableAutoRemove": true,
             "Color": 8411391,
@@ -89,7 +89,7 @@ config.json
         "https://community.ui.com/rss/releases/UniFi-Identity-Endpoint-Windows/82441cdc-ed29-4bb7-b13f-e8e43d37d2b4"
             ],
             "YoutubeUrls": [ "" ],
-            "DiscordWebhookUrl": "https://discord.com/api/webhooks/1279092047189512305/eHRCnD4h7cs0AQTEH-2mW2BlGKqq7hwakGFh6L68x3vwklwWLcSQFUr_lVCwztO3g-or",
+            "DiscordWebhookUrl": "",
             "RssCheckIntervalMinutes": 3,
             "EnableAutoRemove": true,
             "Color": 8411391,
@@ -103,7 +103,7 @@ config.json
         "https://www.arenaev.com/rss-articles.php3"
             ],
             "YoutubeUrls": [ "" ],
-            "DiscordWebhookUrl": "https://discord.com/api/webhooks/1221737142007369730/WudNOCrgsSgvJ5mcxmkMqspzAax5SWdeRuCuP26uQIoNPrf4oQX4C1z4e0R_hu02OnIT",
+            "DiscordWebhookUrl": "",
             "RssCheckIntervalMinutes": 3,
             "EnableAutoRemove": true,
             "Color": 8411391,
@@ -117,7 +117,7 @@ config.json
         "https://status.twingate.com/history.rss"
             ],
             "YoutubeUrls": [ "" ],
-            "DiscordWebhookUrl": "https://discord.com/api/webhooks/1264236365378224238/8UC0hrVcwHjPosRn9vEKlCd6WhBCiaLiSlKFaul7jugE3qlPD471mrcm7JEURbFhiDmb",
+            "DiscordWebhookUrl": "",
             "RssCheckIntervalMinutes": 3,
             "EnableAutoRemove": true,
             "Color": 8411391,
@@ -130,7 +130,7 @@ config.json
         "https://xkcd.com/rss.xml"
             ],
             "YoutubeUrls": [ "" ],
-            "DiscordWebhookUrl": "https://discord.com/api/webhooks/1273518691488763956/lhosGgvzBzZZLhGw_qCFL68iZKn6mQy-6EdYPEr7cw4IOjgdCrgfdstwluY9U---Cl8d",
+            "DiscordWebhookUrl": "",
             "RssCheckIntervalMinutes": 3,
             "EnableAutoRemove": true,
             "Color": 8411391,

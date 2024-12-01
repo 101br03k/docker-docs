@@ -1,6 +1,6 @@
 # **Changedetection.io**
 
-#### [Documentation / Source](changedetection.io)
+#### [Documentation / Source](https://changedetection.io)
 
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 
