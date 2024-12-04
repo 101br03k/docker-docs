@@ -1,6 +1,6 @@
-# **Remgb-webapp**
+# **Rembg-webapp**
 
-#### Documentation / Source
+#### [Documentation / Source](https://github.com/101br03k/rembg-webapp)
 
 ### Docker-Compose ([Recommended, click for why](https://docs.docker.com/compose/intro/features-uses/)):
 

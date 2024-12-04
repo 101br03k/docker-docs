@@ -14,7 +14,7 @@ services:
       - ./appsettings.json:/app/config/appsettings.json
 ```
 
-config.json
+### config.json [(config.json Docs)](https://github.com/Qolors/FeedCord?tab=readme-ov-file#setting-up-appsettingsjson)
 
 ```
 {
