@@ -20,3 +20,6 @@ services:
 ```
 
 If posible please use [environment variables](https://docs.docker.com/compose/environment-variables/set-environment-variables/)
+<br><br><br><br>
+
+---
