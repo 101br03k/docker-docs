@@ -8,8 +8,12 @@ This is the documantation site of my Linux / docker (compose) setup
 
 ## Project layout
 
-    mkdocs.yml    	# The configuration file.
-    docs/
-        index.md    	#The documentation homepage.
-        images dir       #Contains my templates / boilerplates.
-        ...       		# Other markdown pages, images and other files.
+```
+mkdocs.yml              # The configuration file.
+docs/
+    index.md            # The documentation homepage.
+    Homebox             # Homebox documentation
+    images              # Contains my templates / boilerplates.
+    images_not_in_use   # Contains boilerplates that I am currently not running
+    ...                 # Other markdown pages, images and other files.
+```
